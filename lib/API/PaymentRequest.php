@@ -172,8 +172,8 @@ class PaymentRequest{
 
 class RefundType
 {
-    public const DEBIT = 'DEBIT';
-    public const CREDIT = 'CREDIT';
-    public const BANKSLIP = 'BANKSLIP';
+    const DEBIT = 'DEBIT';
+    const CREDIT = 'CREDIT';
+    const BANKSLIP = 'BANKSLIP';
 }
 
