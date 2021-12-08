@@ -150,12 +150,12 @@ class MarketplaceTest
         echo (json_encode($response));
     }
 
-    public static function List()
+    public static function ListAction()
     {
         $PageNumber = 1;
         $RowsPage = 10;
 
-        $response  = MarketplaceRequest::List($PageNumber,$RowsPage);
+        $response  = MarketplaceRequest::ListAction($PageNumber,$RowsPage);
 
         echo (json_encode($response));
     }

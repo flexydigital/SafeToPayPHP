@@ -38,7 +38,7 @@ class TransactionRequest {
         return $response; 
     }
 
-    public static function List($pageNumber, $rowsPerPage, $isSandbox, $createdDateInitial, $createdDateEnd, 
+    public static function ListAction($pageNumber, $rowsPerPage, $isSandbox, $createdDateInitial, $createdDateEnd, 
                                 $paymentDateInitial, $paymentDateEnd, $Id, $reference, $customerName,
                                 $customerIdentity, $paymentMethodCode, $transactionStatusCode){
         

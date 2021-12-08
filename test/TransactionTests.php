@@ -58,7 +58,7 @@ class TransactionTest
         $paymentMethodCode     = '1';
         $transactionStatusCode = '3';
        
-        $response = TransactionRequest::List($pageNumber, $rowsPerPage, $isSandbox, $createdDateInitial, $createdDateEnd, 
+        $response = TransactionRequest::ListAction($pageNumber, $rowsPerPage, $isSandbox, $createdDateInitial, $createdDateEnd, 
                                              $paymentDateInitial, $paymentDateEnd, $Id, $reference, $customerName,
                                              $customerIdentity, $paymentMethodCode, $transactionStatusCode);
 

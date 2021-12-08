@@ -73,7 +73,7 @@ class MarketplaceRequest{
      * @param [RowsPage] $RowsPage
      * @return Response
      */
-    public static function List($PageNumber,$RowsPage){
+    public static function ListAction($PageNumber,$RowsPage){
 
         $response = Client:: HttpClient('GET',"Marketplace/List?PageNumber={$PageNumber}&RowsPerPage={$RowsPage}", null,false);
         return $response;
