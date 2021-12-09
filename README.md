@@ -18,7 +18,7 @@
 
 ## Utilização
 
-composer require safe2pay/sdk
+composer require flexydigital/safetopay-sdk
 
 ## Utilização
 
@@ -31,7 +31,7 @@ Após o envio, a própria chamada devolverá a resposta em um objeto completo co
 
 ## Dependências
 
-* PHP >= 7.1
+* PHP >= 5.6
 
 ## Pagamentos / Transações
 
